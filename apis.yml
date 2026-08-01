@@ -1,4 +1,16 @@
 aid: qtera
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qtera.png
 name: Qtera
 description: Qtera is a company surfaced as a portfolio company of battery-ventures, mayfield and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -13,7 +25,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'No live web presence or API surface found. qtera.com is parked/for-sale
+    (afternic), qtera.io does not resolve, qtera.ai is a Network Solutions under-construction
+    placeholder. Backing (Battery Ventures, Mayfield) matches the historic Qtera
+    Corporation optical-networking startup acquired by Nortel c.2000; the entity is
+    defunct. No OpenAPI, docs, or host to derive/probe against. Web search budget was
+    exhausted this session; findings are from direct domain probes (WebFetch/curl).'
 tags:
 - Company
 apis: []
